@@ -1,5 +1,6 @@
 Hello. 
-My name is Rob.
+My name is Ren Yixiang.
 I like drinking tea and eating chocolate biscuits.
-I am enjoying teaching IBI1 in person again 
+I enjoy learning IBI1 in person  
 I am happy that I can push my repo from Visual Studio Code to GitHub
+My husband is called Peng Chengyuan
