@@ -7,8 +7,8 @@ y = uk_cities#y serves as the size of UK cities
 a = ["Haining","Hangzhou","Shanghai","Beijing"]#a serves as names of China cities
 b = China_cities#b serves as the size of China cities
 plt.figure()
-plt.barh(x,y,autopct='%1.1f%%')#use the barh graph included in the matplotlib
+plt.barh(x,y)#use the barh graph included in the matplotlib
 plt.figure()#show the figure in the second window
-plt.barh(a,b,autopct='%1.1f%%')
+plt.barh(a,b)
 plt.show()#show the graph in a new window
 plt.clf()
