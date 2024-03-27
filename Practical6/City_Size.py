@@ -1,3 +1,5 @@
+#we import somes tools in Python for making graphs
+#we use list language so that each string can represent a value
 uk_cities=[0.56,0.62,0.04,9.7]#a list of the size of UK cities
 China_cities=[0.58,8.4,29.9,22.2]#a list of the size of China cities 
 import numpy as py#import python tools 
