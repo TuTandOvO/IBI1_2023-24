@@ -1,3 +1,6 @@
+#we import somes tools in Python for making graphs
+#In this session, since we want to change the time freely, so we need a variable to save values
+#In the list, each string represents a variable
 import numpy as py #inport python tools
 import matplotlib.pyplot as plt #import python tools
 sleep = 8
