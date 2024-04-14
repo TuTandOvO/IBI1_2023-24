@@ -4,7 +4,7 @@ genes_dict = {}
 with open(fasta_file_path, 'r') as fasta_file:
     for line in fasta_file:
         if line.startswith('>'):
-            gene_name = str(re.findall(r'gene:.+?\s',line))
+            gene_name = str(re.findall(r'gene:(.+?)\s',line))
             genes_dict[gene_name] = ""
         else:
             genes_dict[gene_name] += line.strip()
