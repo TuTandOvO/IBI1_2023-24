@@ -1,0 +1,4 @@
+Frankly speaking, I think this practical is hard.
+However, this practical is quite interesting. During this practical I know how to draw a graph that shows the principles of infection.
+What impressed most is the spatial_SIR model, because it displays graph according to time line.
+Additionally, in spatial_SIR model, the graph can change during different attempt which can be applied better in reality.

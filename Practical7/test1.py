@@ -12,9 +12,9 @@ print(first_5)
 dalys_data.info()
 a = dalys_data.describe()# provide basic infomation such as  this numbers of entries, mean, SD and a number of quantiles
 print(a)
-dalys_data.iloc[4,2]# point to the fifth row in the third column
-dalys_data.iloc[2,0:5]# 0:5 means 0,1,2,3,4 and 5 will not be included
-dalys_data.iloc[0:2,:]# choose the first and second rows and choose all the columns
+dalys_data.iloc[4,2] # point to the fifth row in the third column
+dalys_data.iloc[2,0:5] # 0:5 means 0,1,2,3,4 and 5 will not be included
+dalys_data.iloc[0:2,:] # choose the first and second rows and choose all the columns
 dalys_data.iloc[0:10:2,0:5]# choose rows 0:10 with step length in 2
 dalys_data.iloc[0:3,[0,1,3]]#choose 0:3 rows and columns only include the first, second and theforth
 my_columns = [True, True, False, True] #use Bolleans to determine which also mean [0,1,3] 

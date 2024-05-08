@@ -14,5 +14,5 @@ else:
 #Booleans
 X = True
 Y = False
-W = X ^ Y 
+W = X ^ Y # W is true because because '^' means it would only be true when one of X and Y are true
 print(W)

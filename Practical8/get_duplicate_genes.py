@@ -1,3 +1,7 @@
+# Use dictionary tool to math gene name and gene sequences
+# Use regex function to find gene name line which have duplication and extract gene name
+# Use dictionary tool to store gene sequence
+# Write gene name and its sequence to a file
 import re
 fasta_file_path = 'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 genes_dict = {}
@@ -22,7 +26,7 @@ with open('duplicate_genes.fa','w') as f1:
 
 
 
-
+#origin version (not correct)
 # import re
 # s_cerevisiae = open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')
 # s_cerevisiae_text = s_cerevisiae.read().split('\n')

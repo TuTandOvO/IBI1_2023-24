@@ -8,6 +8,10 @@ x = ["Edinburgh","Glasgow","Stirling","London"]#x serves as names of UK cities
 y = uk_cities#y serves as the size of UK cities
 a = ["Haining","Hangzhou","Shanghai","Beijing"]#a serves as names of China cities
 b = China_cities#b serves as the size of China cities
+y.sort()
+b.sort()
+print(y)
+print(b)
 plt.figure()
 plt.barh(x,y)#use the barh graph included in the matplotlib
 plt.figure()#show the figure in the second window
