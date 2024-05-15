@@ -15,11 +15,13 @@ array_recover = [recover]
 array_infect = [infect]
 array_susceptible = [Susceptible]
 
-for i in range(1, 1001):  # Loop from 1 to 1000 (to match number of iterations)
+for i in range(1, 1000):  # Loop from 1 to 1000 (to match number of iterations)
     p1 = 0.3 * infect / N
     p2 = 0.05
-    infect_new = Susceptible * p1
-    recover_new = infect * p2
+    infect_random = np.random.choice(range(2),array_susceptible[i-1],p=[p1,1-p1])
+    infect_new = np.sum(infect_random==0)
+    recover_random = np.random.choice(range(2),array_infect[i-1],p=[p2,1-p2])
+    recover_new = np.sum(recover_random==0)
     infect = infect + infect_new - recover_new
     recover = recover + recover_new
     Susceptible = N-infect-recover
@@ -28,9 +30,9 @@ for i in range(1, 1001):  # Loop from 1 to 1000 (to match number of iterations)
     array_susceptible.append(Susceptible)
 
 # Plotting the results
-plt.plot(range(0, 1001), array_susceptible, label='Susceptible')
-plt.plot(range(0, 1001), array_infect, label='Infected')  # Plot cumulative infections
-plt.plot(range(0, 1001), array_recover, label='Recovered')
+plt.plot(range(0, 1000), array_susceptible, label='Susceptible')
+plt.plot(range(0, 1000), array_infect, label='Infected')  # Plot cumulative infections
+plt.plot(range(0, 1000), array_recover, label='Recovered')
 plt.xlabel('Time')
 plt.ylabel('Number of People')
 plt.title('SIR Model Simulation')

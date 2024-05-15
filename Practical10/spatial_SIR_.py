@@ -29,3 +29,4 @@ for t in range(100):
     plt.title('SIR Model '+str(t)+' days')
     plt.pause(0.1)
 plt.pause(10)
+plt.clf()

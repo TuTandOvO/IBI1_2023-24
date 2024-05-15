@@ -12,7 +12,7 @@ with open(fasta_file_path, 'r') as fasta_file:
             genes_dict[gene_name] = ""
             simplified_name = str(re.findall(r'gene:(.+?)\s',line))
         else:
-            genes_dict[gene_name] += line.strip()
+            genes_dict[gene_name] += line
 with open('duplicate_genes.fa','w') as f1:  
         for gene_name, gene_sequence in genes_dict.items():
             count = gene_name.count('duplication')
