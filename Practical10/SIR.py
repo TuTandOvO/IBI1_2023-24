@@ -39,6 +39,5 @@ plt.title('SIR Model Simulation')
 plt.legend() # show the legends
 plt.show()
 plt.clf()
-plt.figure(figsize=(6,4),dpi=150)
-plt.savefig('SIR Model.png',format='png') # In new matplotlib, type need to be changed to format
+plt.savefig('D:/IBI/IBI1_2023-24/Practical10/SIR Model.png',format='png') # In new matplotlib, type need to be changed to format
 

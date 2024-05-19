@@ -3,7 +3,7 @@
 # Use dictionary tool to store gene sequence
 # Write gene name and its sequence to a file
 import re
-fasta_file_path = 'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+fasta_file_path = r'D:\IBI\IBI1_2023-24\Practical8\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 genes_dict = {}
 with open(fasta_file_path, 'r') as fasta_file:
     for line in fasta_file:

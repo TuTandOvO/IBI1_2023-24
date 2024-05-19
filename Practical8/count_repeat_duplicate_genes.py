@@ -8,7 +8,7 @@
 # When 'GTGTGT' or 'GTCTGT' emerge in the gene sequence, print out the whole gene sequence and its gene name.
 
 import re
-fasta_file_path = 'Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
+fasta_file_path = r'D:\IBI\IBI1_2023-24\Practical8\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa'
 genes_dict = {}
 with open(fasta_file_path, 'r') as fasta_file:
     for line in fasta_file:

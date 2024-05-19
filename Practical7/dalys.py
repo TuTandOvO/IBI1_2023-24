@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-dalys_data = pd.read_csv("dalys-rate-from-all-causes(1).csv")
+dalys_data = pd.read_csv(r"D:\IBI\IBI1_2023-24\Practical7\dalys-rate-from-all-causes(1).csv")
 
 # Show the forth column from every 10th row, starting from the first row for the first 100 rows
 specific_value = dalys_data.iloc[0:100:10,3]

@@ -1,8 +1,12 @@
 import blosum as bl
 matrix = bl.BLOSUM(62)
-File_Human = open('SLC6A4_HUMAN.fa')
-File_Mouse = open('SLC6A4_MOUSE.fa')
-File_Rat = open('SLC6A4_RAT.fa')
+file_path_huamn = r'D:\IBI\IBI1_2023-24\Practical13\SLC6A4_HUMAN.fa'
+file_path_mouse = r'D:\IBI\IBI1_2023-24\Practical13\SLC6A4_MOUSE.fa'
+file_path_rat = r'D:\IBI\IBI1_2023-24\Practical13\SLC6A4_RAT.fa'
+
+File_Human = open(file_path_huamn)
+File_Mouse = open(file_path_mouse)
+File_Rat = open(file_path_rat)
 Human_sequence = ''
 Mouse_sequence = ''
 Rat_sequence = ''
