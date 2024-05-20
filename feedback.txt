@@ -1,0 +1,6 @@
+In the formative assessment, I have several questions:
+1. My description of my commit message was not imformative enough.
+2. My explanation of the some tasks was not correct.
+3. I missed to output some lists.
+
+To improve this, I asked my professors and checked the requirements in each task.
