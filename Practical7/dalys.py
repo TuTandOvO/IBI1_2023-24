@@ -5,11 +5,12 @@ import numpy as np
 dalys_data = pd.read_csv(r"D:\IBI\IBI1_2023-24\Practical7\dalys-rate-from-all-causes(1).csv")
 
 # Show the forth column from every 10th row, starting from the first row for the first 100 rows
-specific_value = dalys_data.iloc[0:100:10,3]
+specific_value = dalys_data.iloc[0:101:10,3]
 print(specific_value)
 
 # Use Booleans to check Afghanistan data
 Afghanistan_data = dalys_data.loc[dalys_data['Entity']=='Afghanistan',:]
+print(Afghanistan_data)
 
 # Computed the mean DALY in China
 CHINA_data = dalys_data.loc[dalys_data['Entity']=='China', ['DALYs']]

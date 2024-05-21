@@ -38,18 +38,18 @@ genes = input('Please enter your sequences: ')
 if genes == 'GTGTGT':
     with open('GTGTGT_duplicate_genes.fa','w') as f1:  
         for gene_name, gene_sequence in genes_dict.items():
-            simplified_name = str(re.findall(r'gene:(.+?)\s',gene_name))
+            simplified_name = str(re.findall(r'>(.+?)\s',gene_name))
             count = count_1(gene_sequence)
             if count != 0 and 'duplication' in gene_name:
-                f1.write(f"The repeat sequence '{'GTGTGT'}' appears {count} times in the gene '{simplified_name}'."+'\n'+ gene_sequence + '\n')
+                f1.write(f" {count}  {simplified_name}"+'\n'+ gene_sequence + '\n')
                 simplifed_name = ''
 if genes == 'GTCTGT':
     with open('GTCTGT_duplicate_genes.fa','w') as f2:
         for gene_name, gene_sequence in genes_dict.items():
-            simplified_name = str(re.findall(r'gene:(.+?)\s',gene_name))
+            simplified_name = str(re.findall(r'>(.+?)\s',gene_name))
             count = count_2(gene_sequence)
             if count !=0 and 'duplication' in gene_name:
-                f2.write(f"The repeat sequence '{'GTCTGT'}' appears {count} times in the gene '{simplified_name}'."+'\n'+ gene_sequence + '\n')
+                f2.write(f" {count} {simplified_name}"+'\n'+ gene_sequence + '\n')
                 simplified_name = ''
 
 
