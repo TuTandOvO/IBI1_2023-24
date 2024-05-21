@@ -1,2 +1,4 @@
 I want to compare the the DALYs between World Bank High Income and World Bank Low Income 
-The solution of this question is offered in question_solution.py
+The solution of this question is offered in question_solution.py from line 30 to line 45
+
+Results：The high income countries have less DALYs than the low income countries
