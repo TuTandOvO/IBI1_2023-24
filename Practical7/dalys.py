@@ -34,7 +34,7 @@ x = High_data.Year
 y = High_data.DALYs
 a = Low_data.Year
 b = Low_data.DALYs
-plt.figure()
+plt.figure(figsize=(8,4),dpi=150)
 plt.xlabel('YEAR')
 plt.ylabel('DALYs')
 plt.title('DALYs comparasions between World Bank High Income and World Bank Low Income')
