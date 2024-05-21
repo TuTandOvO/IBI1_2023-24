@@ -1,5 +1,5 @@
+Birth_year=int(input('Please enter your birth year: '))
 def Birth_rate_calculator(Birth_year):
-    Birth_year=int(input('Please enter your birth year: '))
     if 1955<=Birth_year<=1968:
         return('Roger Moore')
     if 1969<=Birth_year<=1976:

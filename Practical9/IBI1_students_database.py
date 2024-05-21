@@ -11,5 +11,5 @@ class Student:
 
 # Example
 student1=Student('RYX','BMI',90,80,90)
-print(student1.info_student())
+print(student1.info_student())# student name:RYX,major:BMI,code portfolio score:90,group project score:80,self exam score:90
 
