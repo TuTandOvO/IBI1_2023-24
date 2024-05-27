@@ -14,3 +14,4 @@ def Birth_rate_calculator(Birth_year):
 
 # Example
 print('I was born in 2004 and my favorate James Bond actor is', Birth_rate_calculator(2004))
+# output: I was born in 2004 and my favorate James Bond actor is no actor, because James Bond does not exist in my era
